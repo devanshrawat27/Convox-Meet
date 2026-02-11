@@ -1,148 +1,170 @@
 <h1 align="center">🚀 ConvoX Meet</h1>
 
 <p align="center">
-  <b>A Real-Time Video Conferencing & Collaboration Platform</b><br/>
-  Built for seamless communication, secure meetings & smooth user experience.
+  <b>Scalable Real-Time Video Conferencing Platform</b><br/>
+  Built with WebRTC, Socket.io & Modern Full-Stack Architecture
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/MERN-Stack-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/WebRTC-Integrated-orange?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/FullStack-MERN-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/WebRTC-RealTime-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Socket.io-Signaling-black?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-ProductionReady-success?style=for-the-badge"/>
 </p>
 
 ---
 
-## 🌐 Live Demo
+## 📌 Project Overview
 
-🔗 **Frontend:** https://your-frontend-link.com  
-🔗 **Backend API:** https://your-backend-link.com  
+ConvoX Meet is a full-stack real-time video conferencing application that enables users to create secure meeting rooms and connect instantly using peer-to-peer WebRTC communication.
 
----
+The system uses Socket.io for signaling and WebRTC for direct media streaming between participants, ensuring low latency and efficient communication.
 
-## 📌 About The Project
-
-ConvoX Meet is a full-stack real-time video meeting platform inspired by modern conferencing solutions like Zoom and Google Meet.  
-
-It enables users to create secure meeting rooms, join via meeting IDs, and communicate seamlessly using WebRTC-powered peer-to-peer connections.
-
-The platform focuses on:
-- ⚡ Real-time performance
-- 🔒 Secure connections
-- 💬 Seamless collaboration
-- 🎯 Clean & professional UI
+The platform is designed with scalability, performance optimization, and clean UI/UX principles.
 
 ---
 
-## ✨ Key Features
+# 🏗️ System Architecture
 
-- 🎥 Real-Time Video & Audio Calling
-- 🔗 Unique Meeting Room Generation
-- 👥 Multiple Participants Support
-- 💬 Live Chat Functionality
-- 📺 Screen Sharing Support
-- 🔐 Secure Peer-to-Peer Connection (WebRTC)
-- ⚡ Low Latency Communication
-- 📱 Responsive Design
+1. User creates or joins a meeting room.
+2. Unique Room ID is generated.
+3. Socket.io manages real-time signaling.
+4. WebRTC establishes peer-to-peer media connection.
+5. Audio & Video streams are exchanged securely.
 
 ---
 
-## 🖼️ Screenshots
+# 💻 Frontend
 
-### 🏠 Landing Page
-![Landing Page](assets/ss1.png)
+Built using modern UI and real-time technologies.
 
-### 🎥 Meeting Room Interface
-![Meeting Room](assets/ss2.png)
-
-### 💬 Live Chat Panel
-![Chat Panel](assets/ss3.png)
-
-### 📱 Responsive View
-![Responsive](assets/ss4.png)
-
----
-
-## 🏗️ Tech Stack
-
-### 💻 Frontend
+### Technologies Used:
 - React.js
-- Tailwind CSS
 - WebRTC
 - Socket.io Client
+- Tailwind CSS
+- JavaScript (ES6+)
 
-### 🛠 Backend
+### Responsibilities:
+- Dynamic Meeting UI
+- Video & Audio Stream Rendering
+- Screen Sharing Controls
+- Chat Interface
+- Join / Leave Meeting Handling
+- Responsive Layout
+
+---
+
+# 🛠 Backend
+
+Handles signaling and server-side logic.
+
+### Technologies Used:
 - Node.js
 - Express.js
 - Socket.io
-- MongoDB
+- MongoDB (if integrated)
 
-### 🔐 Real-Time Communication
-- WebRTC
-- STUN Servers
-
----
-
-## ⚙️ How It Works
-
-1. User creates or joins a meeting room.
-2. Unique room ID is generated.
-3. Socket.io handles real-time signaling.
-4. WebRTC establishes peer-to-peer connection.
-5. Audio/Video streams are shared securely between participants.
+### Responsibilities:
+- Real-Time Signaling Server
+- Room Management
+- Participant Handling
+- Event Broadcasting
+- Scalable Server Architecture
 
 ---
 
-## 🚀 Installation & Setup
+# ✨ Core Features
 
-### 1️⃣ Clone the Repository
+- 🎥 Real-Time Video Calling
+- 🎙 Audio Communication
+- 👥 Multi-Participant Support
+- 💬 Live Chat System
+- 📺 Screen Sharing
+- 🔐 Secure Peer-to-Peer Communication
+- ⚡ Low Latency Media Streaming
+- 📱 Fully Responsive Design
+
+---
+
+# 🖼 Application Screenshots
+
+## 🏠 Landing Interface
+![Landing](Screenshot%202026-02-11%20204259.png)
+
+---
+
+## 🎥 Meeting Room
+![Meeting Room](Screenshot%202026-02-11%20205035.png)
+
+---
+
+## 💬 Live Chat Panel
+![Chat](Screenshot%202026-02-11%20205049.png)
+
+---
+
+## 📱 Responsive Layout
+![Responsive](Screenshot%202026-02-11%20205106.png)
+
+---
+
+# 🚀 Installation Guide
+
+## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/ConvoX-Meet.git
+git clone https://github.com/your-username/ConvoX-Meet.git
 cd ConvoX-Meet
-2️⃣ Install Dependencies
-Frontend
-cd frontend
-npm install
-npm start
-Backend
+```
+
+---
+
+## Backend Setup
+
+```bash
 cd backend
 npm install
 npm run dev
-📂 Environment Variables
-Create a .env file in backend folder:
+```
 
+Create `.env` file:
+
+```
 PORT=5000
-MONGO_URI=your_mongodb_connection
-🔮 Future Enhancements
-📁 Meeting Recording
+MONGO_URI=your_mongodb_connection_string
+```
 
-👤 User Authentication
+---
 
-📊 Meeting Analytics
+## Frontend Setup
 
-🌍 Global Server Deployment
+```bash
+cd frontend
+npm install
+npm start
+```
 
-🔔 Push Notifications
 
-🧠 Learning Outcomes
-Implemented WebRTC Peer Connections
+# 🧠 Technical Learnings
 
-Handled Real-Time Signaling via Socket.io
+- Deep understanding of WebRTC peer connections
+- ICE Candidate handling
+- STUN server configuration
+- Real-time signaling using Socket.io
+- Managing multi-user video streams
+- Optimizing frontend rendering performance
 
-Managed Multi-user Video Streams
+---
 
-Built Scalable Full-Stack Architecture
+# 👨‍💻 Developer
 
-Improved UI/UX Design Principles
+**Devansh Rawat**  
+Software Engineering Student  
+GitHub: https://github.com/devanshrawat27  
 
-🤝 Contribution
-Contributions, issues and feature requests are welcome!
+---
 
-👨‍💻 Author
-Devansh Rawat
-📧 devanshdevr@gmail.com
-🔗 GitHub: https://github.com/devanshrawat27
-
-<p align="center"> ⭐ If you like this project, don't forget to star the repository! </p> ```
+<p align="center">
+  ⭐ Star this repository if you found it impressive!
+</p>
