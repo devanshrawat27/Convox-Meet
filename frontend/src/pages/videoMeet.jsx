@@ -16,7 +16,9 @@ import StopScreenShareIcon from '@mui/icons-material/StopScreenShare';
 import ChatIcon            from '@mui/icons-material/Chat';
 import ArrowForwardIcon    from '@mui/icons-material/ArrowForward';
 
-const SERVER_URL = "http://localhost:8000";
+import server from '../environment';
+
+const SERVER_URL = server.prod;
 
 let connections = {};
 
