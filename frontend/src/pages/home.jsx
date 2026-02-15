@@ -69,6 +69,7 @@ function HomeComponent() {
                             <Typography variant="h6" fontWeight={800} sx={{ letterSpacing: '-0.5px' }}>Convox Meet</Typography>
                         </Stack>
                         <Stack direction="row" spacing={1}>
+                            <Button onClick={()=>{ navigate('/about'); }} sx={{ color: "rgba(255,255,255,0.6)", textTransform: 'none' }}>About</Button>
                             <Button onClick={
                                 ()=>{
                                     navigate('/history');

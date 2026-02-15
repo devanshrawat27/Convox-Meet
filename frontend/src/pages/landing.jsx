@@ -64,6 +64,13 @@ export default function Landing() {
             </Stack>
 
             <Stack direction="row" spacing={3} alignItems="center">
+              <Typography 
+                variant="body2" 
+                sx={{ cursor: "pointer", color: "rgba(255,255,255,0.6)", '&:hover': { color: "#fff" } }} 
+                onClick={() => navigate('/about')}
+              >
+                About
+              </Typography>
               {isLoggedIn ? (
                 <>
                   <Typography 
