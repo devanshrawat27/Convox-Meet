@@ -35,26 +35,6 @@
 - **🌐 Scalable** - Handle multiple concurrent rooms effortlessly
 
 ---
-
-## ✨ Features
-
-<div align="center">
-
-| Feature | Description |
-|---------|-------------|
-| 🎥 **HD Video Calling** | Crystal-clear video communication with adaptive bitrate |
-| 🎤 **Audio Controls** | One-click mute/unmute with visual indicators |
-| 👥 **Multi-User Support** | Host unlimited participants in a single room |
-| 💬 **Live Chat** | Real-time messaging alongside video calls |
-| 🖥️ **Screen Sharing** | Share your screen with all participants |
-| 🔐 **Secure Rooms** | Unique room IDs for private meetings |
-| 📊 **Connection Status** | Real-time network quality indicators |
-| 🎨 **Responsive Design** | Seamless experience across all devices |
-
-</div>
-
----
-
 ## 🎥 Demo
 
 <div align="center">
@@ -84,7 +64,26 @@
   </tr>
 </table>
 
+---
+
 ### 🌐 [Try Live Demo](https://convox-meetfrontend.onrender.com/)
+
+</div>
+
+## ✨ Features
+
+<div align="center">
+
+| Feature | Description |
+|---------|-------------|
+| 🎥 **HD Video Calling** | Crystal-clear video communication with adaptive bitrate |
+| 🎤 **Audio Controls** | One-click mute/unmute with visual indicators |
+| 👥 **Multi-User Support** | Host unlimited participants in a single room |
+| 💬 **Live Chat** | Real-time messaging alongside video calls |
+| 🖥️ **Screen Sharing** | Share your screen with all participants |
+| 🔐 **Secure Rooms** | Unique room IDs for private meetings |
+| 📊 **Connection Status** | Real-time network quality indicators |
+| 🎨 **Responsive Design** | Seamless experience across all devices |
 
 </div>
 
