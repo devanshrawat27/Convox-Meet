@@ -74,11 +74,11 @@
   </tr>
   <tr>
     <td width="50%">
-      <img src="bccdea4e-1f86-4971-8262-3994875a0f09.png" alt="Multi-User" width="100%"/>
+      <img src="Screenshot 2026-02-16 150319.png" alt="Multi-User" width="100%"/>
       <p align="center"></p>
     </td>
     <td width="50%">
-      <img src="" alt="Chat Feature" width="100%"/>
+      <img src="bccdea4e-1f86-4971-8262-3994875a0f09.png" alt="Chat Feature" width="100%"/>
       <p align="center"></p>
     </td>
   </tr>
