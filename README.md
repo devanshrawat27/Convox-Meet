@@ -74,7 +74,7 @@
   </tr>
   <tr>
     <td width="50%">
-      <img src="Screenshot 2026-02-16 150629.png" alt="Multi-User" width="100%"/>
+      <img src="bccdea4e-1f86-4971-8262-3994875a0f09.png" alt="Multi-User" width="100%"/>
       <p align="center"></p>
     </td>
     <td width="50%">
@@ -314,13 +314,6 @@ Contributions make the open-source community an amazing place! Any contributions
 5. Open a Pull Request
 
 ---
-
-## 📝 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
 ## 👨‍💻 Developer
 
 <div align="center">
