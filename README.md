@@ -303,18 +303,6 @@ npm run test:e2e
 
 ---
 
-## 🎯 Roadmap
-
-- [ ] 🎭 Virtual backgrounds
-- [ ] 📝 Meeting recording
-- [ ] 🎨 Custom themes
-- [ ] 📊 Analytics dashboard
-- [ ] 🔔 Push notifications
-- [ ] 🌍 Multi-language support
-- [ ] 🤖 AI-powered features (noise cancellation, transcription)
-
----
-
 ## 🤝 Contributing
 
 Contributions make the open-source community an amazing place! Any contributions are **greatly appreciated**.
@@ -370,6 +358,5 @@ If you found this project helpful, please consider:
 
 **Made with ❤️ by [Devansh Rawat](https://github.com/devanshrawat27)**
 
-*"Connecting people, one video call at a time"* 🌐
 
 </div>
