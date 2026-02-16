@@ -68,7 +68,7 @@
       <p align="center"></p>
     </td>
     <td width="50%">
-      <img src="Screenshot 2026-02-16 150319.png" alt="Video Call" width="100%"/>
+      <img src="Screenshot 2026-02-16 150629.png" alt="Video Call" width="100%"/>
       <p align="center"></p>
     </td>
   </tr>
